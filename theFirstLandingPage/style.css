@@ -1,3 +1,34 @@
+/*селектор с перечислением | с целью контроляотступов и размеров*/
+body, h1 {
+    margin: 0;
+}
+
 body {
     min-width: 850px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-color: #eee;
+
+    background-image: url(https://code.s3.yandex.net/web-code/images/freetrack/03/cover.png);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+  }
+
+h1 {
+    font-size: 74px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 270px;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(95 13 238 / 0.5);
 }
