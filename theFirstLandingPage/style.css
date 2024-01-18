@@ -39,12 +39,25 @@ h1 {
     background-color: rgb(95 13 238 / 0.5);
 }
 
+.content {
+    font-size: 0;   /*обнуляет пробел между card*/
+    /*background-color: #8aafcf;*/ /*данное указание вводилось во время верстки для наглядности*/
+    width: 770px;
+    margin: 0 auto;
+}
+
 .card {
     width: 360px;
-    background-color: #e3f3ff;
+    /*background-color: #e3f3ff;*/  
     margin-bottom: 50px;
     padding: 25px 25px 30px 25px;
     border: 1px solid rgb(250 50 50 / .4);
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.no-right-margin {
+    margin-right: 0;
 }
 
 .card-title {
@@ -65,3 +78,5 @@ h1 {
     padding: 25px 25px 30px 25px;
     border: 1px solid rgb(250 50 50 / .4);
 }
+
+
